@@ -17,7 +17,7 @@ const PostCreate = ({ onSuccess }) => {
 
   return (
       <form onSubmit={handleSubmit}>
-        <div className="form-group">
+        <div className="mb-3">
           <label htmlFor="titleInput">Title</label>
           <input
               id="titleInput"

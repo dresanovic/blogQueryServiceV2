@@ -17,7 +17,7 @@ const CommentCreate = ({ postId, onSuccess }) => {
 
   return (
       <form onSubmit={handleSubmit}>
-        <div className="form-group">
+        <div className="mb-3">
           <label htmlFor="commentInput">New Comment</label>
           <input
               id="commentInput"
